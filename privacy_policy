@@ -1,0 +1,22 @@
+Overview
+TapDOS is an offline DOS emulator. It has no account system, advertising or analytics SDK, and does not send your games, saves or recordings to a developer server. This build does not request Android’s Internet permission.
+Files and settings on your device
+When you choose a ZIP through Android’s file picker, TapDOS reads it and stores a copy in its private library. It stores game-created files, session snapshots, control layouts, preferences, the last selected game and a reference to the last recording locally.
+TapDOS does not scan your entire storage. Your original ZIP is not changed. A file-picker provider you choose may download a file from its own cloud service under that provider’s privacy policy.
+Video and audio
+Recording captures only the emulated game picture and game audio. TapDOS does not request microphone, camera, location or contacts access, and does not capture other apps or the whole phone screen.
+Muting playback does not remove audio from recordings. On Android 10 and newer, finished videos are saved to shared storage in Movies/TapDOS. Older versions keep recordings in the app’s external files until you share them.
+Sharing is your choice
+“Share last recording” opens Android’s share chooser. Only the video you choose to share is made available to the selected receiving app. That app or service handles the shared copy under its own privacy policy.
+TapDOS does not upload recordings automatically.
+Android backup and device transfer
+Depending on your Android version, device and backup settings, Android may back up preferences and game saves to your configured backup provider.
+The app’s backup rules exclude imported game archives and app recording files from cloud backup. Device-to-device transfer rules include preferences, imported games and saves.
+Videos in shared storage may also be backed up by a separate gallery or cloud app you have enabled. Those services are outside TapDOS’s control.
+Retention and deletion
+Private app data stays until you clear TapDOS storage in Android Settings or uninstall it. This removes the app’s imported copies, saves and settings.
+Your original ZIPs and videos already saved in shared storage can remain. Delete them using Files or Gallery.
+Copies you shared or backed up must be managed with the receiving app or backup provider. Clearing local data does not necessarily erase existing backups.
+Scope and questions
+This policy applies to this TapDOS build. Future changes to data handling should be reflected here.
+For questions, contact the developer or distributor through the channel where you obtained the app. No support address is collected or required in the app.
